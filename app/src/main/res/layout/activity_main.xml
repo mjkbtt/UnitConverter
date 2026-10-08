@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:paddingStart="18dp"
+    android:paddingEnd="18dp">
+
+    <!-- Unit Converter дээд хэсэгт буй textView зөвхөн текст харуулна-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Unit Converter"
+        android:textColor="@color/primary_blue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<!--    Search unit EditText хэрэглэгч бичиж болдог талбар-->
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/card_background"
+        android:hint="Search unit"
+        android:inputType="text"
+        android:singleLine="true"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="12dp"
+        />
+
+<!--    Ангилалууд харуулах container scrollview- Гүйлгэнэ-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="18dp">
+
+        <LinearLayout
+            android:id="@+id/categoryGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HardwareInputStateStorage">
+    <option name="enabledDevices">
+      <map>
+        <entry key="$USER_HOME$/.android/avd/Pixel_6a.avd" value="1791474182301" />
+        <entry key="$USER_HOME$/.android/avd/Pixel_7a.avd" value="1791450586040" />
+      </map>
+    </option>
+  </component>
+</project>
